@@ -1,0 +1,227 @@
+/* google font import  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap');
+
+/* common css */
+
+body{
+    background-color: #dfc9fd;
+    
+}
+/* main container  */
+h2,h5{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+/* weather main body css  */
+
+.box-center{
+    display: flex;
+    justify-content: center;
+    
+}
+.weather-main-body{
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 18px;
+    background: linear-gradient(145deg, #efd7ff, #c9b5e4);
+    box-shadow:  12px 12px 24px #b5a3cd,
+                -12px -12px 24px #ffefff;
+
+}
+/* location */
+.location{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/* location icon  */
+.location-icon{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px;
+    background: linear-gradient(225deg, #ffdaff, #d8b8dd);
+    box-shadow:  -9px 9px 19px #97819a,
+                 9px -9px 19px #ffffff;
+}
+
+.search-icon{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px;
+    background: linear-gradient(225deg, #ffdaff, #d8b8dd);
+    box-shadow:  -9px 9px 19px #97819a,
+                 9px -9px 19px #ffffff;
+}
+.location-text{
+   
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px;
+    background: linear-gradient(225deg, #ffdaff, #d8b8dd);
+    box-shadow:  -9px 9px 59px #97819a,
+                9px -9px 59px #ffffff;
+}
+
+
+/* weather main icon  */
+.weather-main-icon{
+    display: flex;
+    justify-content: center;
+}
+.main-icon{
+    height: 150px;
+    width: 150px;
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color:#FAB005;
+
+    border-radius: 150px;
+background: linear-gradient(225deg, #d8b8dd, #ffdaff);
+box-shadow:  -14px 14px 28px #605262,
+             14px -14px 28px #ffffff;
+}
+
+/* show-weather-area css  */
+.status{
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(225deg, #ffdaff, #d8b8dd);
+    box-shadow:  -9px 9px 18px #9a839d,
+                9px -9px 18px #ffffff;
+}
+.weather-number-main{
+    margin-top: 20px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.weather-number{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+background: linear-gradient(145deg, #f0f0f0, #cacaca);
+box-shadow:  25px 25px 33px #707070,
+             -25px -25px 33px #ffffff;
+}
+
+
+/* search hover box css start here  */
+
+.search-main-body{
+
+    height: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    background-color: #a996ee;
+    border-radius: 5px;
+    padding: 30px;
+}
+.search-header{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.arrow{
+
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #b5a1ff, #9887d6);
+    box-shadow:  5px 5px 10px #443c5f,
+                -5px -5px 10px #fff0ff;
+}
+
+.search-input input{
+    outline: none;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+
+    border-radius: 38px;
+    background: #a996ee;
+    box-shadow: inset 5px 5px 10px #443c5f,
+                inset -5px -5px 10px #fff0ff;
+}
+
+.search-input input[type=text]{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    color: #e8ddf8;
+    text-align: center;
+    
+}
+.search-result-main{
+    overflow-y: scroll;
+    height: 450px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 0 10px;
+}
+.search-result{
+    cursor: pointer;
+    margin: 20px 0;
+    border-radius: 38px;
+    background: linear-gradient(145deg, #b5a1ff, #9887d6);
+    box-shadow:  5px 5px 10px #443c5f,
+                -5px -5px 10px #fff0ff;
+}
+
+.search-result:hover{
+    border-radius: 35px;
+    background: #a996ee;
+    box-shadow: inset 5px 5px 10px #443c5f,
+                inset -5px -5px 10px #fff0ff;
+}
+
+/* scrol bar customize */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(157, 84, 226); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: blue; 
+  }
