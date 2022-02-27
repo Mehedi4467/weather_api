@@ -50,7 +50,7 @@ const filterCountry = async (searchValue) =>{
 
     }
 };
-weatherApi();
+
 
 
 // get input value 
@@ -81,5 +81,5 @@ document.getElementById('submit').addEventListener('click', () => {
 });
 
 
-
+weatherApi();
 
