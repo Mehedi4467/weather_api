@@ -8,7 +8,7 @@ body{
     
 }
 /* main container  */
-h2,h5{
+h2,h5,h4{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Pacifico', cursive;
     color: black;
@@ -136,7 +136,7 @@ box-shadow:  25px 25px 33px #707070,
     height: 500px;
     position: absolute;
     top: 0;
-    right: -322px;
+    right: -342px;
     transition-duration: 1s;
     background-color: #a996ee;
     border-radius: 5px;

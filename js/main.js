@@ -2,7 +2,7 @@
 
 // search button 
 const closeArrow = () => {
-    document.getElementById('search').style.right = '-322px';
+    document.getElementById('search').style.right = '-342px';
 
 };
 document.getElementById('search-button').addEventListener('click', () => {
