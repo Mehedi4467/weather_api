@@ -1,3 +1,5 @@
+
+
 // search button 
 const closeArrow = () => {
     document.getElementById('search').style.right = '-322px';
@@ -14,7 +16,7 @@ document.getElementById('search-button').addEventListener('click', () => {
 const weatherApi = async (value = 'dhaka') =>{
     const lowerCaseValue = value;
     console.log(value);
-    const weatherUrl = `http://api.weatherapi.com/v1/current.json?key=0c0ac9b70a2949eb935225029222602&q=${lowerCaseValue}&aqi=no`;
+    const weatherUrl = `https://api.weatherapi.com/v1/current.json?key=0c0ac9b70a2949eb935225029222602&q=${lowerCaseValue}&aqi=no`;
     const res = await fetch(weatherUrl);
     const weather = await res.json();
     const currentLocation = document.getElementById('location');
